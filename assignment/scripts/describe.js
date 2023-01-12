@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called name and set it to the name 'Dane'.
-// Created a conditional if statement and set it equal to and type, 'Mary'
+// We make a variable called 'name' and set it to the name 'Dane'.
+// Created a conditional if statement and set it equal in value and type, 'Mary'
 // check if the name is equal to 'Mary' in console.log, if yes, return 'Hi, Mary!'
-// if name is not equal to and type to 'Mary', else statement returns 'How do you do?'
+// Since name is set to Dane, and not equal in value and type to 'Mary', else statement returns 'How do you do?'
 
 //CODE
 /*
@@ -47,7 +47,7 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // introduce variable 'secret' and set varaible 'code' equal to 123.
 // If statement checks 'code' equal value and type to 123, returns 'secret' as "super" and code equals 'code' multiplied by 2.
-// Second if statement checks if code is greater than 250, it will return 'secret' as duper.
+// Second if statement checks if code is greater than 250, it will return 'secret' as duper when run in console.log.
 // we console.log 'secret' and it returns "super"
 
 //CODE
@@ -72,8 +72,8 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // Set variables 'isStudent' equal to true, 'age' is set equal to 34, and variable 'zip' is set to 55407
 // if statement checks if 'isStudent' is equal in value and type to true AND 'zip' is greater than 80000, console.log returns 'You're a student on the West Coast!'
-// Else if statements check if 'isStudent' equal in value and type to false OR 'age' is less than 30, console.log returns "What are your hobbies?" and second Else if statement checks to see if 'isStudent' equal to true, console.log returns "Welcome to Prime!"
-// Else statement checks if none of the variables are true, the console.log will return "How about the weather". 
+// First Else if statements check if 'isStudent' equal in value and type to false OR 'age' is less than 30, console.log returns "What are your hobbies?" and second Else if statement checks to see if 'isStudent' equal to true, console.log returns "Welcome to Prime!"
+// Else statement checks if none of the variables in the statements are true, the console.log will return "How about the weather?". 
 
 //CODE
 /*
@@ -141,6 +141,8 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+
+// FIX there is also no console.log() to run here that would return us answer of purple afterwards.
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
