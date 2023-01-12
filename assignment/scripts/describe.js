@@ -137,7 +137,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX if mix equals true, instructions say colorOne and colorTwo set to purple. Need to create a third variable for colorThree 
+// FIX if mix equals true, instructions say colorOne and colorTwo set to purple. Need to add colorTwo = purple as well.
 if (mix === true) {
   colorOne = 'purple';
 }
