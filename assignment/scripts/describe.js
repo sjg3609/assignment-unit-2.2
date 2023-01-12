@@ -151,6 +151,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX the || gives us an or boolean operator, and we need an AND boolean, which would be &&.
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -163,6 +165,10 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX based on the instructions, the if statement of "if age is greater than or equal to minAge"
+// the console.log should return, "enter", but based on the code below it would return "no entry"
+// so we need to correct the phrases in the if statement to return 'enter' and the else statement to return, 'no entry'
 
 if(minAge <= age) {
   console.log('no entry');
