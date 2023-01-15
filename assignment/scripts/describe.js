@@ -30,6 +30,7 @@ if (number >= 2) {
 // Created a conditional if statement and set it equal in value and type, 'Mary'
 // check if the name is equal to 'Mary' in console.log, if yes, return 'Hi, Mary!'
 // Since name is set to Dane, and not equal in value and type to 'Mary', else statement returns 'How do you do?'
+// we console.log "How do you do?"
 
 //CODE
 /*
@@ -74,6 +75,7 @@ console.log(secret)
 // if statement checks if 'isStudent' is equal in value and type to true AND 'zip' is greater than 80000, console.log returns 'You're a student on the West Coast!'
 // First Else if statements check if 'isStudent' equal in value and type to false OR 'age' is less than 30, console.log returns "What are your hobbies?" and second Else if statement checks to see if 'isStudent' equal to true, console.log returns "Welcome to Prime!"
 // Else statement checks if none of the variables in the statements are true, the console.log will return "How about the weather?". 
+// We console.log and get "Welcome to Prime!"
 
 //CODE
 /*
@@ -137,12 +139,15 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX if mix equals true, instructions say colorOne and colorTwo set to purple. Need to add colorTwo = purple as well.
+// FIX if mix equals true, instructions say colorOne and colorTwo set to purple. Need to add colorTwo = purple as well to the if statement.
+// FIX there is also no console.log() to run here that would return us answer of purple afterwards.
+
+
 if (mix === true) {
   colorOne = 'purple';
 }
 
-// FIX there is also no console.log() to run here that would return us answer of purple afterwards.
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -153,7 +158,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-// FIX the || gives us an or boolean operator, and we need an AND boolean, which would be &&.
+// FIX the || gives us an OR operator, and in the instructions we need an AND operator, which would be &&.
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
